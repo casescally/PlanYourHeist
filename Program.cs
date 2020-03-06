@@ -66,9 +66,9 @@ namespace hiest
                 {
                     Console.WriteLine("How many trial runs?");
 
-                    string userInputPracticeNumber = Console.ReadLine();
+                    string userInputTrialNumber = Console.ReadLine();
 
-                    int trialValue = int.Parse(userInputPracticeNumber);
+                    int trialValue = int.Parse(userInputTrialNumber);
 
                     int successValue = 0, failureValue = 0;
 
